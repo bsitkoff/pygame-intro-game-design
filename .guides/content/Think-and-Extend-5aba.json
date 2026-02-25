@@ -1,0 +1,17 @@
+{
+	"id": "5aba8e2f-d2c4-43d1-a918-d75bcb628e3f",
+	"title": "Think and Extend",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel-tree"
+}

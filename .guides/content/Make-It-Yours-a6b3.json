@@ -1,0 +1,32 @@
+{
+	"id": "a6b30613-6d9c-4ba7-8d93-0af41ea20547",
+	"title": "Make It Yours",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "explore.py",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"panel": 2,
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 3,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "4-cell-guides-left"
+}

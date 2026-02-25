@@ -1,0 +1,22 @@
+{
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"title": "Intro to Game Design",
+	"order": [
+		"Game-Changineer-fc7c",
+		"Explore-a-Game-d8c5",
+		"File-Structure-9b40",
+		"Make-It-Yours-a6b3",
+		"Think-and-Extend-5aba"
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"id": "d8c512ad-0104-4c91-9b62-b33c1470c4f7",
+	"title": "Explore a Game",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "explore.py",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"panel": 2,
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 3,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "4-cell-guides-left"
+}

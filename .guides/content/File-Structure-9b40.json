@@ -1,0 +1,17 @@
+{
+	"id": "9b404c85-00be-4122-a01d-7ad7d13a2522",
+	"title": "File Structure",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "4-cell-guides-left"
+}

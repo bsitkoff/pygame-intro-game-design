@@ -1,0 +1,17 @@
+{
+	"id": "fc7ce049-8161-45c9-9490-490076566191",
+	"title": "Game Changineer",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel-tree"
+}
