@@ -5,6 +5,21 @@
 		{
 			"path": "#tabs",
 			"action": "close"
+		},
+		{
+			"path": "explore.py",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"panel": 0,
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
 		}
 	],
 	"path": [],
@@ -13,5 +28,5 @@
 	"teacherOnly": false,
 	"closeTerminalSession": true,
 	"learningObjectives": "",
-	"layout": "1-panel-tree"
+	"layout": "2-panels-guides-left"
 }

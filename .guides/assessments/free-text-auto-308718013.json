@@ -1,0 +1,32 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-308718013",
+	"source": {
+		"name": "code",
+		"showName": false,
+		"instructions": "Paste the 'code' from the final version of your Game Changineer game here.  Your code should create a game that works, has a clear goal, and includes the three improvements you made to it.",
+		"command": "python3 .guides/secure/freetext.py --question 'Paste the '\\''code'\\'' from the final version of your Game Changineer game here.  Your code should create a game that works, has a clear goal, and includes the three improvements you made to it.' --use-llm",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

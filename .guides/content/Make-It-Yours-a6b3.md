@@ -1,16 +1,21 @@
-## Make It Yours
-
 > 📹 **Watch:** Adding Your Own Sprite
-> *Record in Screencastify — show full Squoosh → upload → Actor name workflow*
-> *Objective: I can find, resize, and upload a sprite to use in my game.*
-> **[ADD VIDEO URL WHEN RECORDED]**
+
+<iframe width="720" height="600"
+  src="https://app.screencastify.com/watch/e7nfobz2sgQHURVSV31K/embed"
+  title="Entire Screen - Screencastify - March 15, 2026 3:15 PM"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+  
 
 ---
 
 ### 🖼️ Using Your Own Sprite
 
-1. Find an image that's **at least 80×80 pixels**
-2. Open **[Squoosh](https://squoosh.app)**, resize to about 80×80, and download *(Squoosh can make images smaller but not larger — start with a big enough image!)*
+1. Find a png image you want to use and save it to your download folder
+2. Open **[Canva Image Resizer](https://www.canva.com/features/image-resizer/)**, upload your image, resize it to **80×80 px**, and download as PNG
 3. Upload the file to your `images/` folder in Codio
 4. Update the `Actor('name')` in your code to match the filename (no `.png`)
 
@@ -18,8 +23,8 @@
 
 Now customize `explore.py`:
 
-1. **Swap a sprite** — replace `happy`, `alien`, or `cookie` with your own image
-2. **Change the background** — try `screen.fill((r, g, b))` with different color values
+1. **Swap the sprites** — replace `happy`, `alien`, and `cookie` with your own images
+2. **Change the background** — try `screen.fill((r, g, b))` with different color values (you can look up RGB color codes with a Google search)
 3. **Adjust a speed** — find where speeds are set and try different numbers
 
-> *[TODO: insert free-text-auto or LLM rubric assessment — check that student changed at least one sprite and one other element]*
+{Check It!|assessment}(free-text-auto-3983424428)

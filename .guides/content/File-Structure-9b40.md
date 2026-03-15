@@ -1,9 +1,16 @@
 ## File Structure
 
-> 📹 **Watch:** Tour of a PyGame Zero File
-> *Record in Screencastify — walkthrough of explore.py: draw(), update(), images folder*
-> *Objective: I can identify what draw(), update(), and the images folder each do.*
-> **[ADD VIDEO URL WHEN RECORDED]**
+📹 **Watch:** Tour of a PyGame Zero File
+
+<iframe width="720" height="600"
+  src="https://app.screencastify.com/watch/YvdwYgQp7r7zD8ZUpRez/embed"
+  title="Codio - Intro to Game Design - Screencastify - March 15, 2026 2:36 PM"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+  
 
 ---
 
@@ -21,11 +28,10 @@ Open `explore.py` and find these three sections:
 These are created once when the game starts. Each one has a position (`.pos`) you can change.
 
 ### 2. `draw()`
-Called 60 times per second. Its job: draw everything on screen. Nothing here should change game state.
+Called 60 times per second. Its job: draw everything on screen. Nothing here should change game state. Look for the global variables and notice that they match the variables we defined outside the function.
 
 ### 3. `update()`
 Also called 60 times per second. Its job: move things, check collisions, respond to keyboard input.
 
 ---
 
-> *[TODO: Add annotation or callout boxes pointing to each section in the code]*
