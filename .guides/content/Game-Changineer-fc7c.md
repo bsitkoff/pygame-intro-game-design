@@ -23,17 +23,13 @@ Open [Game Changineer](https://gc.ece.vt.edu) and make a simple game. Try adjust
 **Play test your game and make at least three changes that make it more fun to play.**
 {Check It!|assessment}(free-text-auto-308718013)
 
-
+Now step back and think about the design process:
 
 {Check It!|assessment}(free-text-auto-4164713738)
 
 ---
 
 Extension:
-Check out some of the advanced samples from Game Changineer, and then go back and reimagine your game.  What can you add?
+Check out some of the advanced samples from Game Changineer, and then go back and reimagine your game. What can you add?
 
 [Sample Games](https://gc.ece.vt.edu/trial/samples/)
-
-
-
-Don't forget to turn this assignment in using the **Mark as Complete** button in the top right.
