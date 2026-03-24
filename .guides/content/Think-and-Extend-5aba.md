@@ -8,8 +8,13 @@
 
 **How games get made:**
 
-> 📹 [RIOT VIDEO: Episode 1 — Intro to Game Art (from "So You Wanna Make Games??" playlist)]
-> *Embed from: https://www.youtube.com/playlist?list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx*
+<iframe width="720" height="405"
+  src="https://www.youtube.com/embed/RqRoXLLwJ8g?list=PL42m9XiTqPHJdJuVXO6Vf5ta5D07peiVx"
+  title="So You Wanna Make Games?? Episode 1 — Intro to Game Art"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 
 Making a game involves way more than just coding. This video from Riot Games (the studio behind League of Legends and Valorant) introduces some of the art roles on a game team.
 
