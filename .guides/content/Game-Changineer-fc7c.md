@@ -35,5 +35,3 @@ Check out some of the advanced samples from Game Changineer, and then go back an
 [Sample Games](https://gc.ece.vt.edu/trial/samples/)
 
 
-
-Don't forget to turn this assignment in using the **Mark as Complete** button in the top right.

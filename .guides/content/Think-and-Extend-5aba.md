@@ -1,8 +1,7 @@
 ## Think and Reflect
 
-**In your own words:** What do `draw()` and `update()` each do? Why are they separate functions?
+{Check It!|assessment}(free-text-auto-2576242226)
 
-> *[TODO: insert free-text-auto assessment — min 20 words — "Explain what draw() and update() do in a PyGame Zero game."]*
 
 ---
 

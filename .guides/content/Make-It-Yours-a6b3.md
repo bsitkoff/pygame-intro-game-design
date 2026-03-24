@@ -28,3 +28,5 @@ Now customize `explore.py`:
 3. **Adjust a speed** — find where speeds are set and try different numbers
 
 {Check It!|assessment}(free-text-auto-3983424428)
+
+{Check It!|assessment}(llm-based-auto-rubric-68533955)

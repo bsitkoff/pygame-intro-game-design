@@ -5,7 +5,7 @@
 		"name": "code",
 		"showName": false,
 		"instructions": "Paste the 'code' from the final version of your Game Changineer game here.  Your code should create a game that works, has a clear goal, and includes the three improvements you made to it.",
-		"command": "python3 .guides/secure/freetext.py --question 'Paste the '\\''code'\\'' from the final version of your Game Changineer game here.  Your code should create a game that works, has a clear goal, and includes the three improvements you made to it.' --use-llm",
+		"command": "python3 .guides/secure/freetext.py --question 'Paste the '\\''code'\\'' from the final version of your Game Changineer game here.  Your code should create a game that works, has a clear goal, and includes the three improvements you made to it.  The provided code should be simple english statements that describe a game.' --use-llm",
 		"timeoutSeconds": 40,
 		"metadata": {
 			"tags": [

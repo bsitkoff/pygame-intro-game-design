@@ -1,0 +1,68 @@
+{
+	"type": "llm-based-auto-rubric",
+	"taskId": "llm-based-auto-rubric-68533955",
+	"source": {
+		"name": "check",
+		"showName": false,
+		"instructions": "After you run your code and test your game, submit your code here.",
+		"metadata": {
+			"tags": [],
+			"files": [
+				"explore.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "explore.py"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 0,
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 3,
+		"arePartialPointsAllowed": true,
+		"rubrics": [
+			{
+				"id": "1",
+				"title": "Sprite Replacement",
+				"description": "Student successfully replaces the default sprites ('happy', 'alien', and 'cookie') with their own custom images. The custom images should be properly formatted (80x80 px PNG files), uploaded to the images/ folder, and correctly referenced in the code using the Actor() function with the appropriate filename (without .png extension). All three sprites should be replaced with unique, appropriate images.",
+				"points": 1
+			},
+			{
+				"id": "2",
+				"title": "Background Color Customization",
+				"description": "Student successfully changes the background color from the default by implementing screen.fill((r, g, b)) with custom RGB color values. The RGB values should be valid (0-255 range for each color component) and result in a visually appropriate background color that differs from the original. The color change should be properly implemented in the code and visible when the game runs.",
+				"points": 1
+			},
+			{
+				"id": "3",
+				"title": "Speed Adjustment",
+				"description": "Student successfully locates and modifies at least one speed value in the code to change the movement or animation speed of game elements. The speed adjustment should be meaningful (noticeably different from the original value) and should not break the game functionality. The student demonstrates understanding of how speed values affect game behavior by making appropriate modifications.",
+				"points": 1
+			}
+		],
+		"rubricsRequirements": "1. **Swap the sprites** — replace `happy`, `alien`, and `cookie` with your own images\n2. **Change the background** — try `screen.fill((r, g, b))` with different color values (you can look up RGB color codes with a Google search)\n3. **Adjust a speed** — find where speeds are set and try different numbers",
+		"solutions": [
+			{
+				"path": ".guides/secure/explore-solution.py",
+				"content": "import pgzrun\nimport random\n\nWIDTH = 800\nHEIGHT = 600\n\n# Actors are sprites — loaded from the images/ folder\nplayer = Actor('dino')\nplayer.pos = (WIDTH // 2, HEIGHT // 2)\n\nalien = Actor('tree')\nalien.pos = (100, 100)\nalien.dx = 4\nalien.dy = 4\n\ncookie = Actor('pear')\ncookie.pos = (300, 300)\n\nscore = 0\ngame_over = False\n\n\ndef update():\n    global score, game_over\n\n    if game_over:\n        return\n\n    # Move player with arrow keys (held down = keeps moving)\n    if keyboard.left:\n        player.x -= 10\n    if keyboard.right:\n        player.x += 10\n    if keyboard.up:\n        player.y -= 10\n    if keyboard.down:\n        player.y += 10\n\n    # Keep player inside the screen\n    if player.x < 20:\n        player.x = 20\n    if player.x > WIDTH - 20:\n        player.x = WIDTH - 20\n    if player.y < 20:\n        player.y = 20\n    if player.y > HEIGHT - 20:\n        player.y = HEIGHT - 20\n\n    # Alien bounces around the screen\n    alien.x += alien.dx\n    alien.y += alien.dy\n    if alien.x < 20 or alien.x > WIDTH - 20:\n        alien.dx = -alien.dx\n    if alien.y < 20 or alien.y > HEIGHT - 20:\n        alien.dy = -alien.dy\n\n    # Collect the cookie — it respawns in a new spot\n    if player.colliderect(cookie):\n        score += 1\n        cookie.pos = (random.randint(50, WIDTH - 50), random.randint(50, HEIGHT - 50))\n\n    # Game over if alien catches player\n    if player.colliderect(alien):\n        game_over = True\n\n\ndef draw():\n    screen.fill((30, 30, 30))\n\n    player.draw()\n    alien.draw()\n    cookie.draw()\n\n    screen.draw.text(f\"Score: {score}\", (10, 10), fontsize=30, color=\"white\")\n\n    if game_over:\n        screen.draw.text(\"GAME OVER\", center=(WIDTH // 2, HEIGHT // 2),\n                         fontsize=60, color=\"red\")\n        screen.draw.text(f\"Final Score: {score}\",\n                         center=(WIDTH // 2, HEIGHT // 2 + 60),\n                         fontsize=30, color=\"white\")\n\n\npgzrun.go()\n"
+			}
+		]
+	}
+}
