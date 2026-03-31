@@ -18,6 +18,8 @@
 
 Making a game involves way more than just coding. This video from Riot Games (the studio behind League of Legends and Valorant) introduces some of the art roles on a game team.
 
+{Check It!|assessment}(free-text-auto-3463977346)
+
 ---
 
 **Want to go further?**

@@ -1,3 +1,14 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Commands
+
+- **Run the game**: `python3 explore.py` (never use `pgzrun` directly in terminal)
+- **Test solution**: `python3 .guides/secure/explore-solution.py`
+
+---
+
 # This Assignment: Lesson 1 — Intro to Game Design
 
 Introductory lesson. Students use Game Changineer (external tool), then explore a pre-built PyGame Zero game (`explore.py`). No PRIMM model yet — this is orientation.

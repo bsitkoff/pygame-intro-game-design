@@ -1,0 +1,32 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-3463977346",
+	"source": {
+		"name": "art",
+		"showName": false,
+		"instructions": "In this project, you selected images files and added them to a game project.  Thinking about the context from the video, how will you choose to source or create art for your future game projects?",
+		"command": "python3 .guides/secure/freetext.py --question 'In this project, you selected images files and added them to a game project.  Thinking about the context from the video, how will you choose to source or create art for your future game projects?' --use-llm",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 1,
+		"useMaximumScore": false
+	}
+}
